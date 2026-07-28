@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pr-BR">
+    <head>
+        <meta charset="UTF-8">
+        <tittle>Exercicio 20 - Estrutura Completa</tittle>
+    </head>
+    <body>
+
+        <header>
+            <h1> Portal de Noticias </h1>
+        </header>
+
+        <main>
+            <article>
+                <h2> Nova atulização de SW disponivel </h2>
+                <p> O Sistema operacional recebeu correções importantes</p>
+            </article>
+        </main>
+
+        <footer>
+            <p> &copy; 2026 Portal de Noticias 3ºD</p>
+        </footer>
+    </body>
+    </html>

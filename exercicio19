@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <tittle>Exercicio 19 - Estrutura do blog </tittle>
+    </head>
+    <body>
+
+        <main>
+            <h1> Blog de tecnologia</h1>
+
+            <article>
+                <h2>como o HTML  5 mudou a internet <h2>
+                    <p> A Introdução de tags Semanticas facilitou a organização de conteudos </p>
+            </article>
+
+            <article>
+                <h2> Dicas de produtividade  no VS Code </h2>
+                <P> Baixar extensões e atalhos do Teclado</p>
+            </article>
+        </main>
+
+        <aside>
+            <h3> Sobre o autor</h3>
+            <p>Dr. jorge</p>
+        </aside>
+    </body>
+    </html>
+    
+
+
