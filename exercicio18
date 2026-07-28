@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang ="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <tittle> Exercicio 18 - Topo Sematico</tittle>
+    </head>
+    <body>
+
+        <header>
+            <h1> 3D Solution Inovações </h1>
+            <nav>
+                <ul>
+                    <li><a href="www.figma.com">Figma</a></li>
+                    <li><a href="www.youtube.com"> Youtube </a></li>
+                    <li><a href="www.google.com">Google </a></li>
+                    <li><a href="www.tiktok.com">Tiktok</a></li>
+                </ul>
+            </nav>
+        </header>
+    </body>
+    </html>
