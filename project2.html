@@ -1,0 +1,123 @@
+ <!DOCTYPE htmml>
+ <html lang="pt-BR">
+ <head>
+     <meta charset="UTF-8">
+     <tittle>Helpdesck 3ºD-Paainel de atendimento</tittle>
+     <Link rel="styleshet" href="style.css"
+     </head>
+    <body>
+         <header>
+         <h1>Central de suporte de TI</h1>
+     <hr>
+
+
+
+
+         </header>
+    
+     <main>
+         <section>
+             <h2>Resumo Operacional</h2>
+             <ul>
+         <li><strong>Chamados abertos:</strong></li>
+         <li><strong>Em andamento:</strong></li>
+         <li><strong>Concluidos hoje:</strong></li>
+             </ul>
+         </section>
+         <hr>
+         <section>
+             <h2>Abrir chamado de suporte</h2>
+             <form>
+                 <Label for="solicitante">Nome do Solicitante:</Label><br>
+                 <input type="text" id="solicitante" required><br><br>
+                
+                 <Label for="setor">Setor:</Label><br>
+                 <select id="setor" required>
+                     <option value="">Selecione o setor...</option>
+                     <option value="financeiro">Financeiro</option>
+                     <option value="rh">Recursos Humanos</option>
+                     <option value="produção">produção</option>
+                     <option value="vendas">Vendas</option>
+                 </select><br><br>
+
+                 <Label>Prioridade do chamado: </Label><br>
+                 <input type="radio" id="p_baixa" name="prioridade" value="baixa">
+                 <Label for="p_baixa">Baixa</Label>
+
+                 <input type="radio" id="p_média" name="prioridade" value="média"checked>
+                 <Label for="p_média">média</Label>
+
+                 <input type="radio" id="p_alta" name="prioridade" value="alta">
+                 <Label for="p_alta">alta</Label>
+
+                 <input type="radio" id="p_critica" name="prioridade" value="critica">
+                 <Label for="p_critica">critica</Label>
+
+                 <Label> Equipamentos Envolvidos:</Label><br>
+                 <input type="checkbox" id="eq_monitor" value="monitor">
+                 <Label for="eq_monitor">monitor</Label>
+
+                 <input type="checkbox" id="eq_perifericos" value="perifericos">
+                 <Label for="eq_perifericos">Teclado/mouse</Label>
+
+                 <input type="checkbox" id="eq_pc" value="computador">
+                 <Label for="eq_pc">computador/notebook</Label>
+
+                 <input type="checkbox" id="eq_impressora" value="impressora">
+                 <Label for="eq_impressora">impressora</Label><br><br>
+ 
+                 <Label for="descrição">Descrição detalhada do problema:</Label><br>
+                 <textarea id="descrição" rows="4" cols="50" placeholder="Descreva o problema" required></textarea><br><br>
+             </form>
+             </section>
+             <hr>
+             <section>
+                 <h2>Chamados Recentes  </h2>
+                 <thead border="1">
+                     <tr>
+                         <th>Setor</th>
+                         <th>ID chamado</th>
+                         <th>Solicitante</th>
+                         <th>Prioridade</th>
+                         <th>Data de Abertura</th>
+                         <th>Status</th>
+                     </tr>
+                 </thead>
+                 <tbody>
+                     <tr>
+                         <td rowspan="4">financeiro</td>
+                         <td>#1098</td>
+                         <td>Carlos</td>
+                         <td>Alta</td>
+                         <td>04/08/2026</td>
+                         <td>em andamento</td>
+                     </tr>
+                     <tr>
+                        
+                         <td>#1098</td>
+                         <td>Carlos</td>
+                         <td>Alta</td>
+                         <td>04/08/2026</td>
+                         <td>em andamento</td>
+                     </tr>
+                     <tr>
+                        
+                         <td>#1098</td>
+                         <td>Carlos</td>
+                         <td>Alta</td>
+                         <td>04/08/2026</td>
+                         <td>em andamento</td>
+                     </tr>
+                     <tr>
+                        
+                         <td>#1098</td>
+                         <td>Carlos</td>
+                         <td>Alta</td>
+                         <td>04/08/2026</td>
+                         <td>em andamento</td>
+                     </tr>
+                 </tbody>
+             </section>
+     </main>
+    </body>
+</html> 
